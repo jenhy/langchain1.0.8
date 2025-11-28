@@ -1,0 +1,81 @@
+代理报错：
+2015-12-04 14:36:08.750427 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map function  entered
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map_syncAccCredit begin
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId llAcctId=666666,nBillDate=0,nRegionCode=0
+2015-12-04 14:36:08.750816 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> Ras_mapreduce_define::query routeRet:
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nServRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nAcctRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nCustRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nGroupRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nPayRouteNum=0
+2015-12-04 14:36:08.717790 fatal [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId not find route for acctId 666666 error!
+2015-12-04 14:36:08.717790 warn [mdb_proxy, mdbproxy] 47206054930176 -> process pkg from 127.0.0.1:33032 error, result_code:-1013
+2015-12-04 14:36:08.756608 debug [] 47206054930176 -> ODAC_APP_BEGINTRANS curr_vid[43] using_vid[43].
+
+2015-12-04 14:36:08.756673 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map function  entered
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map_syncAccCredit begin
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId llAcctId=666666,nBillDate=0,nRegionCode=0
+2015-12-04 14:36:08.756960 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> Ras_mapreduce_define::query routeRet:
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nServRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nAcctRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nCustRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nGroupRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nPayRouteNum=0
+2015-12-04 14:36:08.717790 fatal [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId not find route for acctId 666666 error!
+2015-12-04 14:36:08.717790 warn [mdb_proxy, mdbproxy] 47206054930176 -> process pkg from 127.0.0.1:33032 error, result_code:-1013
+2015-12-04 14:36:08.760843 debug [] 47206054930176 -> ODAC_APP_BEGINTRANS curr_vid[43] using_vid[43].
+
+2015-12-04 14:36:08.760910 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map function  entered
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map_syncAccCredit begin
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId llAcctId=555555,nBillDate=0,nRegionCode=0
+2015-12-04 14:36:08.761231 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> Ras_mapreduce_define::query routeRet:
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nServRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nAcctRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nCustRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nGroupRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nPayRouteNum=0
+2015-12-04 14:36:08.717790 fatal [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId not find route for acctId 555555 error!
+2015-12-04 14:36:08.717790 warn [mdb_proxy, mdbproxy] 47206054930176 -> process pkg from 127.0.0.1:33032 error, result_code:-1013
+2015-12-04 14:36:08.769917 debug [] 47206054930176 -> ODAC_APP_BEGINTRANS curr_vid[43] using_vid[43].
+
+2015-12-04 14:36:08.769984 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map function  entered
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::map_syncAccCredit begin
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId llAcctId=555555,nBillDate=0,nRegionCode=0
+2015-12-04 14:36:08.770385 debug [] 47206054930176 -> odac_app_lookup_CBsPartitionNotifyInfo, Key is [12102]
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> Ras_mapreduce_define::query routeRet:
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nServRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nAcctRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nCustRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nGroupRouteNum=0
+2015-12-04 14:36:08.717790 debug [mdb_proxy, mdbproxy] 47206048622336 -> CRouteQryRet::m_nPayRouteNum=0
+2015-12-04 14:36:08.717790 fatal [mdb_proxy, mdbproxy] 47206048622336 -> CRasMonitorMapreduce::get_routeByAcctId not find route for acctId 555555 error!
+2015-12-04 14:36:08.717790 warn [mdb_proxy, mdbproxy] 47206054930176 -> process pkg from 127.0.0.1:33032 error, result_code:-1013
+
+
+业务日志：
+2015-12-04 14:36:08.744625 debug [] 47008609675008 -> select service_id, nvl(credit_level,-1) from i_acc_busi_credit where acct_id = :AcctID<double>  {UpBusiCreditSpec.h:208}
+2015-12-04 14:36:08.746532 debug [] 47008609675008 -> select assure_type,deposit  from i_user_deposit where serv_id in (select serv_id from cm_user where acct_id = :AcctID<double>  and valid_date <= sysdate and expire_date >sysdate) and valid_date <= sysdate  and expire_date > sysdate  {UpBusiCreditSpec.h:239}
+2015-12-04 14:36:08.751100 warn [] 47008609675008 -> MDB inner error!acct_id=666666, serv_id=0 {SyncUpBase.h:162}
+2015-12-04 14:36:08.751144 warn [] 47008609675008 -> Ias::function return_value:2 {SyncUpBase.h:163}
+2015-12-04 14:36:08.751164 warn [] 47008609675008 -> Ias::function return_value:2 {UpBusiCreditSpec.h:358}
+2015-12-04 14:36:08.751301 debug [] 47008609675008 -> select service_id, nvl(credit_level,-1) from i_acc_busi_credit where acct_id = :AcctID<double>  {UpBusiCreditSpec.h:208}
+2015-12-04 14:36:08.752710 debug [] 47008609675008 -> select assure_type,deposit  from i_user_deposit where serv_id in (select serv_id from cm_user where acct_id = :AcctID<double>  and valid_date <= sysdate and expire_date >sysdate) and valid_date <= sysdate  and expire_date > sysdate  {UpBusiCreditSpec.h:239}
+2015-12-04 14:36:08.757159 warn [] 47008609675008 -> MDB inner error!acct_id=666666, serv_id=0 {SyncUpBase.h:162}
+2015-12-04 14:36:08.757201 warn [] 47008609675008 -> Ias::function return_value:2 {SyncUpBase.h:163}
+2015-12-04 14:36:08.757231 warn [] 47008609675008 -> Ias::function return_value:2 {UpBusiCreditSpec.h:358}
+2015-12-04 14:36:08.757435 debug [] 47008609675008 -> select service_id, nvl(credit_level,-1) from i_acc_busi_credit where acct_id = :AcctID<double>  {UpBusiCreditSpec.h:208}
+2015-12-04 14:36:08.761497 warn [] 47008609675008 -> MDB inner error!acct_id=555555, serv_id=0 {SyncUpBase.h:162}
+2015-12-04 14:36:08.761531 warn [] 47008609675008 -> Ias::function return_value:2 {SyncUpBase.h:163}
+2015-12-04 14:36:08.761548 warn [] 47008609675008 -> Ias::function return_value:2 {UpBusiCreditSpec.h:358}
+2015-12-04 14:36:08.761626 debug [] 47008609675008 -> select service_id, nvl(credit_level,-1) from i_acc_busi_credit where acct_id = :AcctID<double>  {UpBusiCreditSpec.h:208}
+2015-12-04 14:36:08.770650 warn [] 47008609675008 -> MDB inner error!acct_id=555555, serv_id=0 {SyncUpBase.h:162}
+2015-12-04 14:36:08.770692 warn [] 47008609675008 -> Ias::function return_value:2 {SyncUpBase.h:163}
+2015-12-04 14:36:08.770710 warn [] 47008609675008 -> Ias::function return_value:2 {UpBusiCreditSpec.h:358}
+2015-12-04 14:36:08.777261 info [] 47008609675008 -> total records :2,successful records :0,failing records :2 {UpMdbFlow.cpp:103}

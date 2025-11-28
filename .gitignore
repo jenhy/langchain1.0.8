@@ -1,2 +1,6 @@
 .env
 github/
+test.py
+default-max-concurrency.py
+chroma_langchain_db/
+.vscode/
