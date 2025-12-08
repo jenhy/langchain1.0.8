@@ -91,3 +91,32 @@ print(f"运行时间：{end_time - start_time}秒")
 # 加了并发控制参数max_concurrency为3，运行时间变长
 # ['正面', '负面', '中性', '正面', '正面 (Positive)', '负面', '负面', '负面', '正面', '负面']
 # 运行时间：7.418030261993408秒
+
+start_time = time.time()
+
+# 不必等待所有输入，每完成一个输入，就立即返回它的结果。
+print("使用batch_as_completed:")
+result = chain.batch_as_completed(
+    input,
+    config={"max_concurrency": 3},
+)
+
+for index, content in result:
+    print(f"tuple:({index}, {content})")
+
+end_time = time.time()
+
+print(f"运行时间：{end_time - start_time}秒")
+
+# 使用batch_as_completed:
+# tuple:(0, 正面 (Positive))
+# tuple:(1, 负面 (Negative))
+# tuple:(2, 中性)
+# tuple:(3, 正面 (Positive))
+# tuple:(4, 正面 (Positive))
+# tuple:(5, 负面 (Negative))
+# tuple:(7, 负面 (Negative))
+# tuple:(6, 负面 (Negative))
+# tuple:(8, 正面 (Positive))
+# tuple:(9, 负面 (Negative))
+# 运行时间：7.589190244674683秒
